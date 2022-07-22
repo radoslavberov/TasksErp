@@ -1,0 +1,45 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.website-title{
+    color: #fff !important;
+}
+body, html {
+    height: 100%;
+  }
+.web-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.welcome-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/code-wallpaper-38.jpg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 630px;
+}
+
+.welcome-container h2{
+    color: #fff;
+    font-size: 50px;
+}
+.web-nav{
+    color:#fff !important;
+}
+
+.user-info{
+    color:red;
+    font-weight: bold;
+    font-size: 15px;
+}
